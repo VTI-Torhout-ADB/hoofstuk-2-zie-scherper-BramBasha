@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            double kills = 30;
+            double deaths = 2;
+            double KD = kills / deaths;
+            Console.WriteLine($"Je KD is {KD}");
+
+
+
         }
     }
 }
